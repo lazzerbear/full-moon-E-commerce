@@ -1,0 +1,65 @@
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    50% {
+        -webkit-transform: scale(1.01, 1.01);
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes mymove {
+    50% {
+        transform: scale(1.01, 1.01);
+    }
+}
+
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+
+/* Remove the jumbotron's default bottom margin */
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: black;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+
+/*style small wolf  logo*/
+
+.Logo {
+    position: relative;
+    display: block;
+    width: 56px;
+    height: 50px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 13px;
+}
+
+#bannerLogo {
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 1s infinite;
+}
+
+.panel-heading{
+    text-align: center;
+    font-size: 2rem;
+}
